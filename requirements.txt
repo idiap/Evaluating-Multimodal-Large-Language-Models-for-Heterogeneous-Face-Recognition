@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: Copyright © 2026 Idiap Research Institute <contact@idiap.ch>
+# SPDX-FileContributor: Hatef OTROSHI <hatef.otroshi@idiap.ch>
+# SPDX-License-Identifier: MIT
+
+# Python 3.10, Linux + NVIDIA GPU (CUDA)
+# Install with: pip install -r requirements.txt
+
+vllm==0.11.0
+pandas==2.3.3
+pillow==12.0.0
+tqdm==4.67.1
+scikit-learn==1.7.2
+numpy==2.2.6
+
+# Pulled in by vllm; pinned to the versions used for the reported results.
+torch==2.8.0
+transformers==4.57.1

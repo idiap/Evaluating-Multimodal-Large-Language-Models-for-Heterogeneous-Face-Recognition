@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: Copyright © 2026 Idiap Research Institute <contact@idiap.ch>
+# SPDX-FileContributor: Hatef OTROSHI <hatef.otroshi@idiap.ch>
+# SPDX-License-Identifier: MIT
+#
+# Licensing information for files that cannot carry an SPDX comment header:
+# the protocol lists (CSV, parsed by pandas) and the binary image asset.
+
+version = 1
+SPDX-PackageName = "code.hfr_mllm"
+SPDX-PackageSupplier = "Hatef Otroshi Shahreza <hatef.otroshi@idiap.ch>"
+SPDX-PackageDownloadLocation = "https://gitlab.idiap.ch/biometric/code.hfr_mllm"
+
+[[annotations]]
+path = "Protocols/**/*.csv"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Copyright © 2026 Idiap Research Institute <contact@idiap.ch>"
+SPDX-FileContributor = "Anjith GEORGE <anjith.george@idiap.ch>"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "assets/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Copyright © 2026 Idiap Research Institute <contact@idiap.ch>"
+SPDX-FileContributor = "Hatef OTROSHI <hatef.otroshi@idiap.ch>"
+SPDX-License-Identifier = "MIT"
